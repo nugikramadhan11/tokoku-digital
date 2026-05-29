@@ -479,7 +479,7 @@ function App() {
               <div className="solution-icon-wrapper">
                 <Smartphone />
               </div>
-              <h3>📱 Sosial Media</h3>
+              <h3>Sosial Media</h3>
               <p>Layanan optimasi dan penataan sosial media bisnis untuk menarik calon pelanggan milenial.</p>
               <ul className="solution-list">
                 <li><Check className="solution-list-icon" size={16} /> Setup Instagram bisnis lengkap</li>
@@ -493,7 +493,7 @@ function App() {
               <div className="solution-icon-wrapper">
                 <Globe />
               </div>
-              <h3>🌐 Website UMKM</h3>
+              <h3>Website UMKM</h3>
               <p>Pembuatan website premium, cepat diakses, responsif di HP, dan ramah kantong pemilik usaha kecil.</p>
               <ul className="solution-list">
                 <li><Check className="solution-list-icon" size={16} /> Pilihan Website Statis atau CMS</li>
@@ -507,7 +507,7 @@ function App() {
               <div className="solution-icon-wrapper">
                 <Palette />
               </div>
-              <h3>🎨 Branding</h3>
+              <h3>Branding</h3>
               <p>Membangun identitas visual tokomu agar diingat pelanggan dan memiliki keunikan dibanding kompetitor.</p>
               <ul className="solution-list">
                 <li><Check className="solution-list-icon" size={16} /> Desain logo UMKM modern</li>
@@ -521,7 +521,7 @@ function App() {
               <div className="solution-icon-wrapper">
                 <TrendingUp />
               </div>
-              <h3>🚀 Management</h3>
+              <h3>Management</h3>
               <p>Layanan asisten digital untuk mengurus konten harian tokomu agar kamu bisa fokus melayani pembeli.</p>
               <ul className="solution-list">
                 <li><Check className="solution-list-icon" size={16} /> Pengelolaan konten media sosial</li>
