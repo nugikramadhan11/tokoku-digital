@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import './App.css';
 import tokokuLogo from './assets/tokoku-logo.png';
+import indonesiaFlag from './assets/indonesia-flag.svg';
 
 // Testimonials data
 const testimonials = [
@@ -294,11 +295,14 @@ function App() {
               fontSize: '0.85rem', 
               padding: '6px 16px', 
               borderRadius: '20px',
-              display: 'inline-block',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
               marginBottom: '16px',
               border: '1px solid var(--yellow-accent)'
             }}>
-              Solusi Digitalisasi UMKM Indonesia 🇮🇩
+              <span>Solusi Digitalisasi UMKM Indonesia</span>
+              <img src={indonesiaFlag} alt="Indonesia" style={{ width: '20px', height: '14px' }} />
             </span>
             <h1>“Biar tokomu makin dikenal di era digital 🚀”</h1>
             <p>Kami bantu UMKM tampil lebih modern lewat website premium, branding keren, dan pengelolaan sosial media yang tepat sasaran.</p>
