@@ -252,19 +252,24 @@ function App() {
         </div>
 
         <ul className="mobile-menu-links">
-          <li><strong style={{ display: 'block', marginBottom: '8px', fontSize: '0.85rem', textTransform: 'uppercase', color: 'var(--text-muted)' }}>Tentang</strong>
-            <a href="#masalah" className="nav-link" onClick={() => setMobileMenuOpen(false)} style={{ fontSize: '1rem', marginBottom: '8px' }}>Masalah UMKM</a>
-            <a href="#keunggulan" className="nav-link" onClick={() => setMobileMenuOpen(false)} style={{ fontSize: '1rem', marginBottom: '16px' }}>Keunggulan Kami</a>
+          <li>
+            <strong>Tentang</strong>
+            <a href="#masalah" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Masalah UMKM</a>
+            <a href="#keunggulan" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Keunggulan Kami</a>
           </li>
-          <li><strong style={{ display: 'block', marginBottom: '8px', fontSize: '0.85rem', textTransform: 'uppercase', color: 'var(--text-muted)' }}>Layanan</strong>
-            <a href="#solusi" className="nav-link" onClick={() => setMobileMenuOpen(false)} style={{ fontSize: '1rem', marginBottom: '8px' }}>Solusi Kami</a>
-            <a href="#edukasi" className="nav-link" onClick={() => setMobileMenuOpen(false)} style={{ fontSize: '1rem', marginBottom: '16px' }}>Statis vs CMS</a>
+          <li>
+            <strong>Layanan</strong>
+            <a href="#solusi" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Solusi Kami</a>
+            <a href="#edukasi" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Statis vs CMS</a>
           </li>
-          <li><strong style={{ display: 'block', marginBottom: '8px', fontSize: '0.85rem', textTransform: 'uppercase', color: 'var(--text-muted)' }}>Portfolio</strong>
-            <a href="#portfolio" className="nav-link" onClick={() => setMobileMenuOpen(false)} style={{ fontSize: '1rem', marginBottom: '8px' }}>Hasil Nyata</a>
-            <a href="#testimoni" className="nav-link" onClick={() => setMobileMenuOpen(false)} style={{ fontSize: '1rem', marginBottom: '16px' }}>Testimoni</a>
+          <li>
+            <strong>Portfolio</strong>
+            <a href="#portfolio" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Hasil Nyata</a>
+            <a href="#testimoni" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Testimoni</a>
           </li>
-          <li><a href="#harga" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Paket Harga</a></li>
+          <li>
+            <a href="#harga" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Paket Harga</a>
+          </li>
         </ul>
 
         <a 
