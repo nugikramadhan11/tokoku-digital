@@ -1929,3 +1929,737 @@
   font-size: 0.85rem;
   color: #64748b;
 }
+
+
+/* ============================================
+   MOBILE RESPONSIVE OPTIMIZATION
+   Optimized for smartphones & tablets
+   ============================================ */
+
+/* SMALL MOBILE DEVICES - max-width: 480px */
+@media (max-width: 480px) {
+  /* HEADER & NAVBAR */
+  .navbar {
+    padding: 0 12px;
+  }
+
+  .logo-area {
+    font-size: 0.95rem;
+  }
+
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
+  }
+
+  .mobile-menu {
+    width: 250px;
+    right: -250px;
+    padding: 24px 16px;
+    gap: 24px;
+  }
+
+  .mobile-menu-links {
+    gap: 16px;
+  }
+
+  .mobile-menu-links .nav-link {
+    font-size: 1rem;
+  }
+
+  /* HERO SECTION */
+  .hero-section {
+    padding: 100px 0 50px 0;
+  }
+
+  .hero-grid {
+    gap: 40px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+
+  .hero-visual {
+    display: none; /* Hide visual on very small screens */
+  }
+
+  /* PROBLEM SECTION */
+  .problem-section {
+    padding: 40px 0;
+  }
+
+  .problem-header {
+    margin-bottom: 40px;
+  }
+
+  .problem-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  .problem-header p {
+    font-size: 0.9rem;
+  }
+
+  .problem-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .problem-card {
+    padding: 24px 16px;
+    gap: 12px;
+  }
+
+  .problem-icon-wrapper {
+    width: 48px;
+    height: 48px;
+    font-size: 1.2rem;
+  }
+
+  .problem-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .problem-card p {
+    font-size: 0.85rem;
+  }
+
+  .problem-footer {
+    padding: 16px;
+  }
+
+  .problem-footer-text {
+    font-size: 1.1rem;
+  }
+
+  /* SOLUTION SECTION */
+  .solution-header {
+    margin-bottom: 40px;
+  }
+
+  .solution-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  .solution-header p {
+    font-size: 0.9rem;
+  }
+
+  .solution-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .solution-card {
+    padding: 24px 16px;
+    gap: 16px;
+  }
+
+  .solution-icon-wrapper {
+    width: 56px;
+    height: 56px;
+    font-size: 1.4rem;
+  }
+
+  .solution-card h3 {
+    font-size: 1.15rem;
+  }
+
+  .solution-card p {
+    font-size: 0.85rem;
+  }
+
+  .solution-list {
+    gap: 8px;
+    padding-top: 12px;
+  }
+
+  .solution-list li {
+    font-size: 0.8rem;
+  }
+
+  /* VALUE SECTION */
+  .value-section {
+    padding: 40px 0;
+  }
+
+  .value-header {
+    margin-bottom: 40px;
+  }
+
+  .value-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  .value-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .value-card {
+    padding: 20px 16px;
+    gap: 12px;
+  }
+
+  .value-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 1.2rem;
+  }
+
+  /* COMPARE SECTION */
+  .compare-header {
+    margin-bottom: 40px;
+  }
+
+  .compare-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  .compare-grid {
+    gap: 20px;
+  }
+
+  .compare-card {
+    padding: 24px 16px;
+    gap: 16px;
+  }
+
+  .compare-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .compare-features li {
+    font-size: 0.9rem;
+    gap: 10px;
+  }
+
+  /* DIAGNOSE BOX */
+  .diagnose-box {
+    margin-top: 40px;
+    padding: 24px 16px;
+  }
+
+  .diagnose-title {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+
+  .diagnose-options {
+    gap: 12px;
+  }
+
+  .diagnose-btn {
+    padding: 10px 16px;
+    font-size: 0.85rem;
+  }
+
+  .diagnose-result {
+    padding: 16px;
+    font-size: 0.9rem;
+  }
+
+  /* PRICING SECTION */
+  .pricing-section {
+    padding: 40px 0;
+  }
+
+  .pricing-header {
+    margin-bottom: 40px;
+  }
+
+  .pricing-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .pricing-card {
+    padding: 20px 16px;
+    gap: 12px;
+  }
+
+  .pricing-name {
+    font-size: 1rem;
+  }
+
+  .pricing-price {
+    font-size: 1.8rem;
+  }
+
+  .pricing-card p {
+    font-size: 0.8rem;
+  }
+
+  .pricing-flex-banner {
+    font-size: 1rem;
+    padding: 12px;
+    margin-bottom: 40px;
+  }
+
+  /* CALCULATOR BOX */
+  .calculator-box {
+    padding: 24px 16px;
+  }
+
+  .calculator-title {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  .calculator-grid {
+    gap: 20px;
+  }
+
+  .calculator-options {
+    gap: 12px;
+  }
+
+  .calc-option-card {
+    padding: 12px 14px;
+  }
+
+  .calc-option-left {
+    gap: 10px;
+  }
+
+  .calc-option-name {
+    font-size: 0.9rem;
+  }
+
+  .calc-option-price {
+    font-size: 0.85rem;
+  }
+
+  .calc-checkbox {
+    width: 18px;
+    height: 18px;
+  }
+
+  .calculator-summary {
+    padding: 20px;
+    gap: 16px;
+  }
+
+  .calc-sum-price {
+    font-size: 2.2rem;
+  }
+
+  /* PORTFOLIO SECTION */
+  .portfolio-header {
+    margin-bottom: 40px;
+  }
+
+  .portfolio-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  .slider-container {
+    height: 250px;
+    margin-bottom: 32px;
+  }
+
+  .slider-before,
+  .slider-after {
+    padding: 24px 16px;
+  }
+
+  .before-logo {
+    font-size: 1.2rem;
+  }
+
+  .before-menu {
+    font-size: 8px;
+  }
+
+  .before-body {
+    font-size: 9px;
+    padding: 8px;
+  }
+
+  .after-logo-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9rem;
+  }
+
+  .after-logo-text {
+    font-size: 0.95rem;
+  }
+
+  .after-card {
+    padding: 14px;
+    gap: 12px;
+  }
+
+  .after-tag {
+    font-size: 8px;
+    padding: 2px 4px;
+  }
+
+  .after-title {
+    font-size: 12px;
+  }
+
+  .after-btn {
+    font-size: 8px;
+    padding: 4px 8px;
+  }
+
+  .slider-label {
+    bottom: 12px;
+    font-size: 0.7rem;
+    padding: 4px 10px;
+  }
+
+  .slider-handle-button {
+    width: 36px;
+    height: 36px;
+    border-width: 2px;
+  }
+
+  /* TESTIMONIAL SECTION */
+  .testimonial-section {
+    padding: 40px 0;
+  }
+
+  .testimonial-header {
+    margin-bottom: 40px;
+  }
+
+  .testimonial-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  .testimonial-card {
+    padding: 24px 16px;
+    gap: 16px;
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+  }
+
+  .testimonial-avatar {
+    width: 44px;
+    height: 44px;
+    font-size: 0.95rem;
+  }
+
+  .testimonial-name {
+    font-size: 0.95rem;
+  }
+
+  .testimonial-business {
+    font-size: 0.75rem;
+  }
+
+  .testimonial-controls {
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .testimonial-ctrl-btn {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* CTA SECTION */
+  .cta-section {
+    padding: 60px 0;
+  }
+
+  .cta-grid {
+    gap: 32px;
+  }
+
+  .cta-content h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+  }
+
+  .cta-content p {
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+
+  .whatsapp-widget {
+    max-width: 100%;
+  }
+
+  .wa-header {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+
+  .wa-avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .wa-status-area {
+    font-size: 0.9rem;
+  }
+
+  .wa-name {
+    font-size: 12px;
+  }
+
+  .wa-status {
+    font-size: 9px;
+  }
+
+  .wa-chat-body {
+    height: 180px;
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .wa-msg {
+    max-width: 85%;
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+
+  .wa-time {
+    font-size: 7px;
+  }
+
+  .wa-footer {
+    padding: 6px 10px;
+    gap: 6px;
+  }
+
+  .wa-input {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+
+  .wa-send-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 40px 0 20px 0;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .footer-brand-title {
+    font-size: 1.1rem;
+  }
+
+  .footer-brand p {
+    font-size: 0.85rem;
+  }
+
+  .footer-links-col h4 {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+
+  .footer-links-col ul {
+    gap: 10px;
+  }
+
+  .footer-links-col a {
+    font-size: 0.8rem;
+  }
+
+  .footer-bottom {
+    padding-top: 20px;
+    gap: 12px;
+  }
+
+  .footer-bottom p {
+    font-size: 0.75rem;
+  }
+}
+
+/* MEDIUM MOBILE DEVICES - 480px to 640px */
+@media (min-width: 481px) and (max-width: 640px) {
+  /* HERO SECTION */
+  .hero-section {
+    padding: 120px 0 60px 0;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  /* PROBLEM SECTION */
+  .problem-header h2 {
+    font-size: 2rem;
+  }
+
+  .problem-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-bottom: 48px;
+  }
+
+  .problem-card {
+    padding: 28px 20px;
+  }
+
+  .problem-card h3 {
+    font-size: 1.15rem;
+  }
+
+  .problem-card p {
+    font-size: 0.9rem;
+  }
+
+  /* SOLUTION SECTION */
+  .solution-header h2 {
+    font-size: 2rem;
+  }
+
+  .solution-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .solution-card {
+    padding: 32px 20px;
+  }
+
+  .solution-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .solution-card p {
+    font-size: 0.9rem;
+  }
+
+  /* VALUE SECTION */
+  .value-header h2 {
+    font-size: 2rem;
+  }
+
+  .value-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+
+  .value-card {
+    padding: 24px 16px;
+  }
+
+  /* COMPARE SECTION */
+  .compare-header h2 {
+    font-size: 2rem;
+  }
+
+  .compare-grid {
+    gap: 24px;
+  }
+
+  .compare-card {
+    padding: 32px 20px;
+  }
+
+  .compare-card h3 {
+    font-size: 1.4rem;
+  }
+
+  /* PRICING SECTION */
+  .pricing-header h2 {
+    font-size: 2rem;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+
+  .pricing-card {
+    padding: 24px 18px;
+  }
+
+  .pricing-price {
+    font-size: 2rem;
+  }
+
+  /* CALCULATOR BOX */
+  .calculator-title {
+    font-size: 1.4rem;
+  }
+
+  .calculator-grid {
+    gap: 32px;
+  }
+
+  /* TESTIMONIAL SECTION */
+  .testimonial-header h2 {
+    font-size: 2rem;
+  }
+
+  .testimonial-card {
+    padding: 32px 20px;
+  }
+
+  .testimonial-text {
+    font-size: 1.05rem;
+  }
+
+  /* CTA SECTION */
+  .cta-content h2 {
+    font-size: 2.2rem;
+  }
+
+  .cta-content p {
+    font-size: 1rem;
+  }
+
+  /* FOOTER */
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-brand-title {
+    font-size: 1.2rem;
+  }
+}
