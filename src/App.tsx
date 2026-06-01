@@ -1117,7 +1117,7 @@ function App() {
 
         <div className="container footer-bottom">
           <p>© {new Date().getFullYear()} Tokoku Digital. Hak Cipta Dilindungi. Dibuat dengan ❤️ untuk UMKM Indonesia.</p>
-          <p style={{ fontSize: '0.75rem' }}>WhatsApp Admin (Dummy): +62 812-3456-7890</p>
+          <p style={{ fontSize: '0.75rem' }}>WhatsApp Admin : +62 857-0648-5815</p>
         </div>
       </footer>
     </>
