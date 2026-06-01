@@ -761,9 +761,9 @@ function App() {
                       <div>
                         <div className="calc-option-name">{service.name}</div>
                         <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                          {service.id === 'website-statis' && '🔥 Cocok untuk pemula'}
-                          {service.id === 'website-cms' && '⚙️ Rekomendasi bisnis berkembang'}
-                          {service.id === 'management' && '⚡ Kelola konten bulanan'}
+                          {service.id === 'website-statis' && 'Cocok untuk pemula'}
+                          {service.id === 'website-cms' && 'Rekomendasi bisnis berkembang'}
+                          {service.id === 'management' && 'Kelola konten bulanan'}
                         </div>
                       </div>
                     </div>
