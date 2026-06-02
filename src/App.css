@@ -1496,13 +1496,7 @@
   align-items: center;
   gap: 20px;
   width: 100%;
-  max-width: 480px;
-}
-
-.after-logo-area {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+    max-width: 100%;
 }
 
 .after-logo-icon {
@@ -2353,6 +2347,11 @@
   .after-card {
     padding: 14px;
     gap: 12px;
+    grid-template-columns: 1fr;
+  }
+
+  .after-card-right {
+    justify-content: flex-start;
   }
 
   .after-tag {
