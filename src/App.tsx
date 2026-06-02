@@ -449,7 +449,7 @@ function App() {
 
           <div className="problem-footer">
             <p className="problem-footer-text">
-              Padahal sekarang orang cari toko lewat internet 👀
+              Padahal sekarang orang cari toko lewat internet
             </p>
           </div>
         </div>
