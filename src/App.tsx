@@ -30,9 +30,9 @@ const testimonials = [
     stars: 5,
   },
   {
-    name: 'Mas Rian',
-    business: 'Owner Barbershop BarberBoy',
-    avatar: 'R',
+    name: 'Mas Nugie',
+    business: 'Owner Barbershop Nugie Cuts',
+    avatar: 'N',
     text: '“Paket Branding dari Tokoku Digital juara banget. Logo baru dan feed Instagram rapi bikin anak muda di daerah saya pada berdatangan. Toko kelihatan jauh lebih profesional dan modern.”',
     stars: 5,
   },
