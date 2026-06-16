@@ -470,7 +470,7 @@ function App() {
               display: 'block' 
             }}>Solusi Tokoku Digital</span>
             <h2>Tokoku Digital siap bantu UMKM go digital</h2>
-            <p>Kami hadir menyediakan layanan terintegrasi yang murah, ramah, dan disesuaikan khusus untuk UMKM Indonesia.</p>
+            <p>Kami hadir menyediakan layanan terintegrasi yang murah, ramah, dan disesuaikan khusus untuk UMKM Indonesia Tradisional.</p>
           </div>
 
           <div className="solution-grid">
@@ -571,7 +571,7 @@ function App() {
 
             <div className="value-card">
               <div className="value-icon">✅</div>
-              <h3 style={{ fontSize: '1.15rem' }}>Cocok untuk UMKM Kecil</h3>
+              <h3 style={{ fontSize: '1.15rem' }}>Cocok untuk UMKM Mikro</h3>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Proses tidak ribet, bahasa penjelasan kami mudah dipahami tanpa istilah teknik rumit.</p>
             </div>
 
